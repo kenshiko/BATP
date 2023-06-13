@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo">Alan Couceiro <span>Freelancer</span></h1>
+    </header>
+    
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a id="cliente" href="#">Clientes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y desarrollo Web <span>Freelancer</span></h2>
+            
+            <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="40" height="40" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+              </svg>
+            </svg> Argentina, Bs as </p>
+        </div>        
+    </section>
+
+
+<main class="contenedor sombra">
+    
+    <section class>
+        <h2>Contacto</h2>
+
+        <form class="formulario">
+            <fieldset>
+            <legend>Contactanos llenando todos los campos</legend>
+            
+            <div class="container-input">
+
+                <div class="input">
+                    <label">Nombre</label>
+                    <input class="input-text" type="text">
+                </div>
+
+                <div class="input">
+                    <label">Telefono</label>
+                    <input class="input-text" type="tel">
+                </div>
+
+                <div class="input">
+                    <label">Correo</label>
+                    <input class="input-text" type="email">
+                </div>
+
+                <div class="input">
+                    <label">Mensaje</label>
+                    <textarea class="input-text"></textarea>
+                </div>
+
+            </div>
+
+            <div class="input-boton">
+                <input onclick="consultar()" class="boton" type="submit" value="enviar">
+            </div>
+
+
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Alan Couceiro </p>
+    </footer>
+
+    
+<script src="main.js"></script>    
+</body>
+</html>
