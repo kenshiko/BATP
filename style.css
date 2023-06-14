@@ -253,7 +253,6 @@ border-radius: 1rem;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .img-lenguajes{
@@ -261,6 +260,11 @@ border-radius: 1rem;
     width: 200px;
     height: 100px;
     border-radius: 120px;
+}
+
+.img-curso{
+    max-width: 340px;
+    margin: auto;
 }
 
 .title-nosotros{
